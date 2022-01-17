@@ -1,0 +1,51 @@
+body{background-color: rgb(231, 214, 190);}
+
+.introPollo{justify-content: center; }
+
+.introPollo img {max-width: 300px;
+text-align: center;
+padding-right: 15%;}
+
+.introPollo p{max-width: 60%; 
+text-align: center;
+padding: 20px 20px 20px 20px;
+border: solid brown 1px;
+background-color: white;
+margin-left: 150px;}
+
+.ingredientes{margin-left: 10%;
+font-size: 20px;
+background-color: white;
+margin-right: 30%;
+padding-bottom: 1px;}
+
+p{font-size: 20px;}
+
+.ingredientes h3{border-bottom: brown solid 1px;
+max-width: 25%;
+margin-left: 20px;
+padding-top: 10px;
+padding-right: 260px;}
+
+.pasos h3{padding-right: 260px;
+margin-left: 20px;
+padding-top: 10px}
+
+
+.ingredientes li{margin-bottom: 10px;}
+
+.preparacion h3{border-bottom: brown solid 1px;
+    max-width: 70%;}
+
+.preparacion{margin-left: 10%;
+font-size: 20px;}
+
+.pasos{margin-left: 10%;
+    font-size: 20px;
+background-color: white;
+margin-right: 30%;
+padding-bottom: 5px;}
+
+.pasos p{margin-left: 30px;}
+
+footer{margin-top: 140px;}

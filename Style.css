@@ -1,0 +1,85 @@
+header{display: flex;
+    justify-content: center;
+    }
+
+.menu{position: sticky;
+top: 0px;
+background-color: white;}
+
+.menu ul{justify-content: center; 
+    display: flex; 
+border-top: gray solid 1px;
+border-bottom: black solid 1px;
+list-style: none }
+
+.menu ul li{
+padding: 10px 20px 10px 20px;}
+
+.submenu{text-decoration: none;
+color: black;}
+
+.submenu:hover{color: #7ABA96;}
+
+
+img{max-width: 100%;
+margin:auto;
+display: block;}
+
+
+
+.suscribete {background-color: #EEEEEE;}
+
+.suscribete h4{background-color: #7ABA96; 
+    text-align: center;}
+
+.sobreMi h1{text-align: center;}
+
+.sobreMi p{text-align: justify;}
+
+.suscribete h3{text-align: center;}
+
+.recetas h3{justify-content: center;
+display: flex;}
+
+.nombre{text-decoration: none;
+color: black;}
+
+.nombre:hover{color:#8A8070}
+
+.contenido{display: flex;
+margin-left: 10%;
+margin-right: 10%; }
+
+.recetas{display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+
+}
+.recetas article{width: 45%;
+text-align: justify;
+margin-left: 5%;}
+
+.articulo{text-align: justify; }
+
+.fecha{display: flex;
+justify-content: center;
+border-top: solid rgb(94, 163, 94) 1px;
+border-bottom: solid rgb(94, 163, 94) 1px;
+}
+
+
+
+
+footer nav{background-color: black;
+}
+
+footer nav ul{list-style: none;
+display: flex;
+justify-content: center;}
+
+footer nav li{padding: 15px 25px 15px 25px;}
+
+.link{text-decoration: none;
+color: white;}
+
+.link:hover{color: #7aba96;}

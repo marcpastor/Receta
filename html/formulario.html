@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style.css" />
+    <link rel="stylesheet" href="../css/formulario.css" />
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+		<img src="../imagenes/Logo-Delicias.png">
+	</header>
+<nav class="menu">
+    <ul>
+        <li>
+			<a class="submenu" href="../Index.html">Inicio</a>
+		</li>
+        <li>
+			<a class="submenu" href= "https://www.google.com">Sobre mí</a>
+		</li>
+        <li>
+			<a class="submenu" href="paginaRecetas.html">Recetas</a>
+		</li>
+        <li>
+			<a class="submenu" href="formulario.html">Contacto</a>
+		</li>
+		<li>
+			<a class= "submenu" href="">Página</a>
+		</li>
+        <li>
+			<a class="submenu" href="">Otras cosas</a>
+		</li>
+    </ul>
+</nav>
+<main>
+    <form name="formulario" method="get">
+    <h2>Formulario de registro</h2>
+   <section class="infoPersonal">
+       <h3>Información personal</h3>
+        <label for="fname">Nombre:</label>
+        <input id="fname" type="text" name="fname" required >
+        <label for="sname">Primer apellido:</label>
+        <input id="sname" type="text" name="sname" required >
+        <label for="lname">Segundo apellido:</label>
+        <input id="lname" type="text" name="lname" required ><br><br>
+        <label for="dbirth">Fecha de nacimiento:</label>
+        <iinput id="dbirth" type="text" name="dbirth" required >
+        <label for="country">Nacionalidad:</label>
+        <select name="country">
+            <option id="spain">Española</option>
+            <option id="argentina">Argentina</option>
+            <option id="colombia">Colombiana</option>
+            <option id="mejico">Mejicana</option>
+            <option id="portugal">Portuguesa</option>
+            <option id="other">Otra</option>
+        </select>
+        <label id="country">En caso de que su nacionalidad no esté entre las opciones, especifique cual:</label>
+        <input type="text" name="other"><br><br>
+        <label for="tfn">Teléfono:</label>
+         <input type="text" id="tfn" name="tfn">
+        <label for="email">Email:</label>
+        <input id="email" type="text" name="email" required ><br><br>
+        <label for ="genero"required >Género:</label> <br>
+            <input id="masculino" name="genero" type="radio">Masculino<br>
+            <input id="femenino" name = "genero"type="radio">Femenino<br>
+            <input id="nobinario" name="genero"type="radio">No binario<br><br>
+        <label>Nombre de usuario:</label>
+        <input type="text" required class="usuario">
+        <label>Contraseña:</label>
+            <input type="password"><br>
+
+    </section>
+    <section class="interes">
+        <h3>Información de interés</h3>
+     <label for="nivel">Nivel de cocina:</label><br>
+            <input id="novato" name="nivel"type="radio" >Principiante, ayer se me quemaron los macarrones<br>
+            <input id="seminovato" name="nivel"type="radio">Me defiendo, ya sé hacer un huevo frito<br>
+            <input id="regular" name="nivel"type="radio" >Mi abuela estaría orgullosa<br>
+            <input id="pro" name="nivel"type="radio" >Apartate Arguiñano, aquí el experto soy yo<br><br>
+       
+            <label for="estudio">Has realizado algún curso/estudio de cocina antes?</label><br>
+            <input id="estudioSi" name="estudio" type="radio">Sí<br>
+            <input id="estudioNo" name="estudio" type="radio">No<br><br>
+        <label for="tipoComida">Tipo de comida favorita:</label><br>
+            <input id="casera" name="tipoComida"type="radio" >Comida casera<br>
+            <input id="oriental" name="tipoComida"type="radio">Comida oriental<br>
+            <input id="postres" name="tipoComida"type="radio">Postres<br>
+            <input id="vegetariano" name="tipoComida"type="radio">Vegetariano<br>
+            <input id="vegano" name="tipoComida"type="radio">Vegano<br>
+            <input id="carnivoro" name="tipoComida"type="radio">Solo como carnes<br><br>
+        <label" for="colaborar">De que manera te gustaría colaborar en nuestra página?</label><br>
+            <input id="voyeur" name="colaborar"type="radio">Solo estoy mirando, gracias<br>
+            <input id="ocasional" name="colaborar"type="radio">Ocasional, quizá suba alguna receta<br>
+            <input id="pesado" name="colaborar"type="radio">Habitual<br><br>
+        <label for="aficion">Por que razón, o quien te aficionó a la cocina?</label><br>
+        <input id="nacimiento" name="aficion"type="radio">Nacimiento, siempre me ha gustado<br>
+        <input id="progresivo" name="aficion" type="radio">Antes no me gustaba pero he ido cogiendo el gustillo<br>
+        <input id="acompañado" name="aficion"type="radio">Me encanta cocinar junto a alguien (pareja, padres, amigos)<br>
+        <input id="supervivencia" name="aficion"type="radio">No me gusta, pero necesito cocinar para sobrevivir.<br><br>
+        <label for="ingredientes">Cuales son tus principales ingredientes a la hora de cocinar?</label><br>
+        <input id="pasta" name="ingredientes" type="checkbox">Pasta <br>
+        <input id="verduras" name="ingredientes"type="checkbox">Verduras<br>
+        <input id="carnes" name="ingredientes"type="checkbox">Carnes<br>
+        <input id="cebolla" name="ingredientes"type="checkbox">Cebolla<br>
+        <input id="patata" name="ingredientes"type="checkbox">Patatas<br>
+        <input id="tomate" name="ingredientes"type="checkbox">Tomate<br>
+        <label for="ingrdientes">Otros:</label>
+        <input id="otros" name="ingredientes"type="text"><br><br>
+        </select>
+    </section>
+    <div class="registro"><input type="submit" value="Registrar"></div>
+    </form>
+</main>
+<footer>
+	<nav>
+		<ul>
+			<li>
+				<a class="link" href="http://www.fb.com" target="_blank">Facebook</a>
+			</li>
+			<li>
+				<a class="link" href="http://www.twitter.com" target="_blank">Twitter</a>
+			</li>
+			<li>
+				<a class="link" href="http://instagram.com" target="_blank">Instagram</a>
+			</li>
+			<li>
+				<a class="link" href="http://pinterest.com" target="_blank">Pinterest</a>
+			</li>
+			<li>
+				<a class="link" href="http://email.com" target="_blank">Email</a>
+			</li>
+			<li>
+				<a class="link" href="http://rss.com" target="_blank">RSS</a>
+			</li>		
+		</ul>
+	</nav>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{background-color: rgb(231, 214, 190);}
+
+.intro{text-align: center; font-size: 20px;}
+
+.receta a{text-decoration: none; color: black; text-decoration: underline;}
+
+.text{
+display: flex;
+font-size: 20px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.receta img{width: 150px;
+   height: 100px;
+float: left;
+}
+.receta{border-bottom: solid 1px brown;}
+
+.listaRecetas{background-color: white;
+margin-left: 5%;
+margin-right: 5%;}
+
+.text p{margin-right: 5%;
+margin-left: 5%;}
+
+
+
